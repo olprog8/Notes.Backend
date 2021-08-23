@@ -11,19 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{28147534-346F-46FE-9DAA-E9B089CB93DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.Domain", "Notes.Domain\Notes.Domain.csproj", "{66C12DE6-F24D-4A90-A63B-8482B74304EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes.Domain", "Notes.Domain\Notes.Domain.csproj", "{66C12DE6-F24D-4A90-A63B-8482B74304EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.Application", "Notes.Application\Notes.Application.csproj", "{A31CAFD8-F9C5-4780-84A5-8449718C6345}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes.Application", "Notes.Application\Notes.Application.csproj", "{A31CAFD8-F9C5-4780-84A5-8449718C6345}"
 	ProjectSection(ProjectDependencies) = postProject
 		{66C12DE6-F24D-4A90-A63B-8482B74304EC} = {66C12DE6-F24D-4A90-A63B-8482B74304EC}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.Persistence", "Notes.Persistence\Notes.Persistence.csproj", "{BEA727E9-7938-4B4A-A158-65F70E9E2DAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes.Persistence", "Notes.Persistence\Notes.Persistence.csproj", "{BEA727E9-7938-4B4A-A158-65F70E9E2DAD}"
 	ProjectSection(ProjectDependencies) = postProject
 		{A31CAFD8-F9C5-4780-84A5-8449718C6345} = {A31CAFD8-F9C5-4780-84A5-8449718C6345}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.WebApi", "Notes.WebApi\Notes.WebApi.csproj", "{7B7F8465-F5B8-4098-8B03-E40EBAE9F1B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes.WebApi", "Notes.WebApi\Notes.WebApi.csproj", "{7B7F8465-F5B8-4098-8B03-E40EBAE9F1B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
